@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <p>
+            (R) Vermelho 
+            <input type="range" id="redRange" min="0" max="250"/> 
+            <input type="text" name="redText" id="redText" value="0" disabled/>
+        </p>
+
+        <p>(G) Green 
+            <input type="range" id="greenRange" min="0" max="250"/> 
+            <input type="text" name="greenText" id="greenText" value="0"  disabled> </p>
+    
+        <p>(B) Blue 
+            <input type="range" id="blueRange" min="0" max="250"/> 
+            <input type="text" name="blueText" id="blueText" value="0"  disabled> </p>
+
+        <div id="coloredSquare" style="background-color: rgb(0, 0, 0);"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
